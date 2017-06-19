@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import hotColdApp from './components/hotCold_Board';
+import HotCold_Board from './components/hotCold_Board';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<hotCold_Board />, document.getElementById('root'));
+ReactDOM.render(<HotCold_Board />, document.getElementById('root'));
 registerServiceWorker();

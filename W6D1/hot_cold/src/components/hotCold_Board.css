@@ -1,8 +1,44 @@
+h1 {
+    color: white;
+}
+
 .hotColdBoard{
-    background-color: blue;
+    background-color: navy;
     font:white;
     text-align: center;
+    width: 100%;
 }
 .links{
     float: right;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.guessBox {
+    height: 500px;
+    width:  400px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.hintField {
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+    display: block;
+}
+
+.answerBox {
+    background-color: slateblue;
+    height: 300px;
+    text-align: center;
+}
+
+.guessed {
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
 }
